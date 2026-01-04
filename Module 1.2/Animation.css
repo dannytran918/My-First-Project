@@ -1,0 +1,12 @@
+@keyframes slideIn{
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.banner{
+    animation: slideIn 1s ease-out;
+}

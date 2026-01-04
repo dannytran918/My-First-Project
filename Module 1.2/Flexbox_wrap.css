@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.item {
+  background-color: #4337de;
+  color: white;
+  padding: 30px;
+  font-size: 22px;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+}

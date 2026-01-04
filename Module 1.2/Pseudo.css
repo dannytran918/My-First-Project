@@ -1,0 +1,21 @@
+.cta {
+    background-color: royalblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: dodgerblue;
+}
+
+cta:active {
+    background-color: navyblue;
+}
+
+.cta::after {
+    content: " →";
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+/* Make the cards sit side-by-side on big screens */
+    .container {
+        display: flex;
+        gap: 10px;
+    }
+    .card { 
+        background: lightblue;
+        padding: 20px;
+        width: 200px;
+    }
+
+/* Phone: screen 480px or smaller */
+@media(max-width: 480px) {
+    .container{
+        flex-direction: column; /* stack the card */
+    }
+}
+
+/* Tablet: screen 768px or smaller */
+@media(max-width: 768px){
+    .card {
+        width: 50%; /* 2 cards per row */
+    }
+})
+
+
